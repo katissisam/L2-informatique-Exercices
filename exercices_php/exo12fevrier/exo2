@@ -2,16 +2,16 @@
  $heure = 14; 
  
  if ($heure >= 0 && $heure < 6) {
-     echo "Il est actuellement nuit (minuit à 6h).";
+     echo "Il est actuellement nuit.";
  } 
  elseif ($heure >= 6 && $heure < 12) {
-     echo "Il est actuellement le matin (6h à 12h).";
+     echo "Il est actuellement le matin.";
  } 
  elseif ($heure >= 12 && $heure < 18) {
-     echo "Il est actuellement l'après-midi (12h à 18h).";
+     echo "Il est actuellement l'après-midi.";
  } 
  elseif ($heure >= 18 && $heure <= 24) {
-     echo "Il est actuellement la nuit (18h à minuit).";
+     echo "Il est actuellement la nuit.";
  } 
  else {
      echo "Heure invalide. Veuillez entrer une valeur entre 0 et 24.";
